@@ -1,0 +1,13 @@
+# isso aqui só precisa para corrigir o bug
+from spacy.cli import download
+
+download("en_core_web_sm")
+
+class ENGSM:
+    ISO_639_1 = 'en_core_web_sm'
+    
+O primeiro passo é criar um ambiente virtual no Python, mas também vou te mostrar o passo a passo para essa criação (mas caso queira algo mais a fundo temos outro vídeo aqui no canal sobre esse assunto).
+
+Outro ponto que vamos precisar é da biblioteca chatterbot no Python, pois é com ela que vamos fazer a criação do chatbot Python!
+
+Um ponto muito importante é como treinar chatbot no Python para que ele aprenda com essas informações e consiga responder de forma inteligente! 
